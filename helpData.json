@@ -1,1 +1,30 @@
-
+[
+  {
+    "title": "สร้าง GitHub Repo",
+    "steps": [
+      "ไปที่ GitHub → คลิก New Repository",
+      "ตั้งชื่อ repo เป็น tpsclip",
+      "เลือก Public หรือ Private ตามต้องการ",
+      "คลิก Create Repository"
+    ]
+  },
+  {
+    "title": "Push ไฟล์ขึ้น GitHub",
+    "steps": [
+      "เปิดโปรเจกต์ Tpsclip บนมือถือ/คอม",
+      "รันคำสั่ง git init",
+      "git add .",
+      "git commit -m 'Initial commit'",
+      "git remote add origin <URL ของ repo>",
+      "git push -u origin main"
+    ]
+  },
+  {
+    "title": "Build APK ด้วย Expo",
+    "steps": [
+      "ติดตั้ง Expo CLI",
+      "รัน expo build:android",
+      "รอจนสร้างไฟล์ .apk เสร็จ"
+    ]
+  }
+]
